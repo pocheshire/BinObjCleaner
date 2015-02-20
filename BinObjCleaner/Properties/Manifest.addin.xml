@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <Extension path = "/MonoDevelop/Ide/Commands/Edit">
+        <Command id = "BinObjCleaner.BinObjCleanerCommands.DeleteBinObj"
+             _label = "Delete bin/obj"
+             _description = "Delete /bin and /obj folders in every solution project" 
+             defaultHandler = "BinObjCleaner.DeleteBinObjHandler" />
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/MainMenu/Build">
+        <CommandItem id="BinObjCleaner.BinObjCleanerCommands.DeleteBinObj" />
+    </Extension>
+
+</ExtensionModel>    
