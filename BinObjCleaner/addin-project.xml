@@ -1,0 +1,12 @@
+﻿<AddinProject appVersion="1.0">
+    <Project platforms="Mac Linux">
+        <AddinFile>BinObjCleaner/bin/Release/BinObjCleaner.dll</AddinFile>
+        <BuildFile>BinObjCleaner.sln</BuildFile>
+        <BuildConfiguration>Release</BuildConfiguration>
+    </Project>
+    <Project platforms="Win32">
+        <AddinFile>BinObjCleaner/bin/ReleaseWin32/BinObjCleaner.dll</AddinFile>
+        <BuildFile>BinObjCleaner.sln</BuildFile>
+        <BuildConfiguration>ReleaseWin32</BuildConfiguration>
+    </Project>
+</AddinProject>
