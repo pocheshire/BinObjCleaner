@@ -3,7 +3,7 @@
 	name="BinObjCleaner"
 	author="Maxim Evtukh"
 	url="https://github.com/pocheshire/BinObjCleaner"
-	copyright=""
+	copyright="© 2015 FT-SOFT"
 	description="Delete /bin and /obj folders in every solution project"
 	category="IDE extensions"
 	version="1.0">
