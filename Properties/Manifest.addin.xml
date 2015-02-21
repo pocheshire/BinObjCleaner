@@ -7,6 +7,12 @@
 	description="Delete /bin and /obj folders in every solution project"
 	category="IDE extensions"
 	version="1.0">
+	
+	<Dependencies>
+		<Addin id="Ide" version = "1.0" />
+		<Addin id="Core" version = "1.0" />
+	</Dependencies>
+	
         <ExtensionModel>
             <Extension path = "/MonoDevelop/Ide/Commands/Edit">
                 <Command id = "BinObjCleaner.BinObjCleanerCommands.DeleteBinObj"
