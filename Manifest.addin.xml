@@ -1,31 +1,14 @@
-﻿<Addin id="BinObjCleaner"
-    namespace="BinObjCleaner"
-    name="BinObjCleaner"
-    author="Maxim Evtukh"
-    url="https://github.com/pocheshire/BinObjCleaner"
-    copyright="© 2015 FT-SOFT"
-    description="Delete /bin and /obj folders in every solution project"
-    category="IDE extensions"
-    version="1.0">
-    
-    <Dependencies>
-        <Addin id="Ide" version = "1.0" />
-        <Addin id="Core" version = "1.0" />
-        <Addin id="Components.Commands" version = "1.0" />
-    </Dependencies>
-    
-        <ExtensionModel>
-            <Extension path = "/MonoDevelop/Ide/Commands">
-                <Command id = "BinObjCleaner.BinObjCleanerCommands.DeleteBinObj"
-                     _label = "Delete bin/obj"
-                     _description = "Delete /bin and /obj folders in every solution project" 
-                     defaultHandler = "BinObjCleaner.DeleteBinObjHandler" />
-            </Extension>
-        
-            <Extension path = "/MonoDevelop/Ide/MainMenu/Build">
-                <CommandItem id="BinObjCleaner.BinObjCleanerCommands.DeleteBinObj" />
-            </Extension>
-        
-        </ExtensionModel>
-</Addin>
+﻿<ExtensionModel>
+    <Extension path = "/MonoDevelop/Ide/Commands">
+        <Command id = "BinObjCleaner.BinObjCleanerCommands.DeleteBinObj"
+             _label = "Delete bin/obj"
+             _description = "Delete /bin and /obj folders in every solution project" 
+             defaultHandler = "BinObjCleaner.DeleteBinObjHandler" />
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/MainMenu/Build">
+        <CommandItem id="BinObjCleaner.BinObjCleanerCommands.DeleteBinObj" />
+    </Extension>
+
+</ExtensionModel>
     
