@@ -1,7 +1,7 @@
 ﻿<AddinProject appVersion="1.0">
     <Project platforms="Mac Linux">
-        <AddinFile>BinObjCleaner/bin/Release/BinObjCleaner.dll</AddinFile>
+        <AddinFile>BinObjCleaner/bin/Debug/BinObjCleaner.dll</AddinFile>
         <BuildFile>BinObjCleaner.sln</BuildFile>
-        <BuildConfiguration>Release</BuildConfiguration>
+        <BuildConfiguration>Debug</BuildConfiguration>
     </Project>
 </AddinProject>
