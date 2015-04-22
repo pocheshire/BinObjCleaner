@@ -1,4 +1,5 @@
-﻿<ExtensionModel>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
     <Extension path = "/MonoDevelop/Ide/Commands">
         <Command id = "BinObjCleaner.BinObjCleanerCommands.DeleteBinObj"
              _label = "Delete bin/obj"
@@ -11,4 +12,3 @@
     </Extension>
 
 </ExtensionModel>
-    
