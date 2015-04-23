@@ -32,7 +32,7 @@ namespace BinObjCleaner
                 }
 
                 IdeApp.Workbench.StatusBar.EndProgress ();
-                IdeApp.Workbench.StatusBar.ShowMessage ("Deleted success");
+                IdeApp.Workbench.StatusBar.ShowMessage ("Deleted successfully");
             }
         }
 
