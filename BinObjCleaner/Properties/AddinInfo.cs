@@ -1,7 +1,6 @@
 ﻿using System;
 using Mono.Addins;
 using Mono.Addins.Description;
-using Mono.Addins;
 
 [assembly:Addin (
     "BinObjCleaner", 
